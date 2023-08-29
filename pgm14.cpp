@@ -133,7 +133,7 @@ int main() {
 
         cout << "\nEnter your choice: ";
         cin >> choice;
-        cin.ignore();  // Ignore the newline character
+        cin.ignore(); 
 
         switch (choice) {
             case 1: {
@@ -143,7 +143,7 @@ int main() {
                 cout << "2. Add a tape" << endl;
                 cout << "Enter your choice: ";
                 cin >> choice;
-                cin.ignore();  // Ignore the newline character
+                cin.ignore(); 
 
                 switch (choice) {
                     case 1: {
@@ -153,7 +153,7 @@ int main() {
                         getline(cin, author);
                         cout << "Enter the number of pages: ";
                         cin >> pages;
-                        cin.ignore();  // Ignore the newline character
+                        cin.ignore(); 
 
                         library.addItem(new Book(title, author, pages));
                         break;
@@ -165,7 +165,7 @@ int main() {
                         getline(cin, author);
                         cout << "Enter the duration (in minutes): ";
                         cin >> duration;
-                        cin.ignore();  // Ignore the newline character
+                        cin.ignore(); 
 
                         library.addItem(new Tape(title, author, duration));
                         break;
