@@ -14,7 +14,7 @@ public:
 
 Vector operator*(const Vector& v1, const Vector& v2) {
     Vector v3;
-    v3.size = v1.size;  // Assuming sizes are equal for v1 and v2
+    v3.size = v1.size;
     for (int i = 0; i < v3.size; i++) {
         v3.array[i] = v1.array[i] * v2.array[i];
     }
