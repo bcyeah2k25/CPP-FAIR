@@ -27,10 +27,10 @@ double x,y;
 float i,j;
 long int e,f;
 
-cout<<"\nEnter 2 integer values for calculating there sum:\n";
+cout<<"\nEnter 2 integer values for calculating their sum:\n";
 cin>>a>>b;
 cout<<"\nSum of "<<a<<"and "<<b<<" = "<<add(a,b)<<"\n";
-top:
+  
 cout<<"\nEnter 2 double values for performing division:\n";
 cin>>x>>y;
 if(y==0)
