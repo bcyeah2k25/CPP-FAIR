@@ -38,15 +38,15 @@ if(y==0)
 else
    cout<<"\nValue of "<<x<<" divided by "<<y<<" = "<<division(x,y)<<"\n";
 
-cout<<"\nEnter 2 float values for calculating there difference :\n";
+cout<<"\nEnter 2 float values for calculating their difference :\n";
 cin>>i>>j;
 cout<<"\nDifference between "<<i<<" and "<<j<<" = "<<difference(i,j)<<"\n";
 
-cout<<"\nEnter 2 integer values for calculating there modulus:\n";
+cout<<"\nEnter 2 integer values for calculating their modulus:\n";
 cin>>a>>b;
 cout<<"\n"<<a<<" modulus "<<b<<" = "<<moduluss(a,b)<<"\n";
 
-cout<<"\nEnter 2 long integer values for calculating there product:\n";
+cout<<"\nEnter 2 long integer values for calculating their product:\n";
 cin>>e>>f;
 cout<<"\nProduct of "<<e<<" and "<<f<<" = "<<multiplication(e,f)<<"\n";
 
