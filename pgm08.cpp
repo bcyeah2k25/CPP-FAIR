@@ -10,6 +10,7 @@ public:
     friend Vector operator*(const Vector& v1, const Vector& v2);
     friend ostream& operator<<(ostream& os, const Vector& v);
     friend istream& operator>>(istream& is, Vector& v);
+    friend bool checksize(Vector& v1,Vector& v2);
 };
 
 Vector operator*(const Vector& v1, const Vector& v2) {
@@ -40,6 +41,12 @@ istream& operator>>(istream& is, Vector& v) {
         is >> v.array[i];
     return is;
 }
+bool checksize(Vector& v1,Vector& v2){
+      if(v1.size==v2.size)
+          return true;
+      else
+           return false;
+    }
 
 int main() {
     Vector v1, v2, v3;
@@ -53,9 +60,11 @@ int main() {
     cout << "\nVector 1 : " << v1;
     cout << "\nVector 2 : " << v2;
 
-    v3 = v1 * v2;
-
-    cout << "\n\nResult of v1 * v2: " << v3 << endl;
-
+    if(!checksize(v1,v2))
+          cout <<endl<<endl<<"Vector  multiplication not possible.Vectors must be of same size." << endl;
+    else{
+          v3 = v1 * v2;
+         cout << "\n\nResult of v1 * v2: " << v3 << endl;
+    }
     return 0;
    }
