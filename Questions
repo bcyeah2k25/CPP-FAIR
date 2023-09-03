@@ -1,0 +1,102 @@
+1. Write a C++ program to perform different arithmetic operation such as addition,
+subtraction, division, modulus and multiplication using inline function.
+
+2. Write a program to define an array of nested class students, which contains data
+members such as name, rollno and sex and consists of two more classes date whose data
+members are day month and year and another class age whose data member is age.
+Read students information from keyboard and display the contents on the screen
+
+3. Create two classes DM and DM which store the value of distances. DM stores distances in
+meters and centimeters and DB in feet and inches. Write a program that can read values
+for the class object and add one object of DM with another object of DM. use friend
+function to carry out the addition operation. The object that stores the results may be a
+DM object or DB object , depending on the units in which the results are required.
+The display should be in the format of feet and inches or meters and centimeters
+depending on the object on display user’s choice.
+
+4. Write a program to create a class vector (a series of float values). Include member functions to
+create and display the vectors. Also add two vectors and multiply a vector by a scalar value by
+operator overloading. Write the overloaded function to add two vectors using a friend function.
+To display the vector in the form (10,20,30…)
+
+5. Assume that a bank maintains two kinds of accounts for customers, one called as savings account
+and the other as current account. The savings account provides compound interest and
+withdrawal facilities but no cheque book facility. The current account provides cheque book
+facility but no interest. Current account holders should also maintains a minimum balance and if
+the balance falls below this level a service charge is imposed.
+Create a class Account that stores customer name, account number and type of account. From
+this derive the classescur_acct and sav_acct to make them more specific to their requirements.
+Include necessary member functions in order to achieve the following tasks:
+a. Accept deposit from a customer and update the balance.
+b. Display the balance.
+c. Compute and deposit interest.
+d. Permit withdrawal and update the balance.
+Check for the minimum balance, impose penalty if necessary, and update the balance.(19)
+
+6. A bookshop maintains the inventory of books that are being sold at the shop. The list includes
+details such as author, title, price, publisher and stock position. Whenever a customer wants a
+book, the sales person inputs the title and author and system searches the list and displays
+whether it is available or not. If it is not an appropriate message is displayed. If it is, then the
+system displays the book details and requests for the number of copies required. If the
+requested copies are available, the total cost of the required copies is displayed, other wise the
+message “Sorry! These many copies are not in stock.”
+Design a system using a class called stock with suitable member functions and constructors. The
+program should be menu driven and should include proper validations. Use new operator in
+constructors to allocated memory space required.
+
+7. Write a menu driven program to perform matrix operations (Addition, subtraction and
+multiplication) using operator overloading. Try to write the overloaded function for
+multiplication using friend function and other two operations using member functions. Use
+appropriate constructors also.
+
+8. Write a Program to overload operators like *, <<, >> using friend function. The following
+overloaded operators should work for a class vector.
+
+9. Write a Program which creates & uses array of object of a class.( for eg. implementing the list of
+Managers of a Company having details such as Name, Age, etc..).
+
+10. Write a C++ program to using friend function to swapping private data of two classes. [ hint:
+Create two classes class C1 and C2. In class C1 private data members value1 and member
+functions inputdata(parameter), dispalydata() and friend function void exchange(parameters), in
+class C2 private data members value2 and member functions inputdata( parameter),
+dispalydata() and friend function void exchange(parameters) inter change value1 and value2
+using exchange()function].
+
+11. Write a C++ program to create three objects for a class named pntr_obj with data members such
+as roll_no & name . Create a member function set_data() for setting the data values and print()
+member function to print which object has invoked it using ‘this’ pointer.
+
+12. Write a Program to design a class having static member function named showcount() which has
+the property of displaying the number of objects created of the class.
+
+13. Create a class “string” as user defined string type. Include constructors to create and initialize a
+string. Overload the operators + and ≤ to add and compare two strings.
+
+14. Write a program to design a class representing the information regarding digital library (books,
+tape: book & tape should be separate classes having the base class as media ). The class should
+have the functionality for adding new item, issuing, deposit etc. the program should use the
+runtime polymorphism.
+
+15. Write a C++ program to explain virtual function (polymorphism) by creating a base
+classc_polygon which has virtual function area(). Two classes rectangle and traingle derived from
+polygon and they have area() to calculate and return the area of rectangle and triangle
+respectively.
+
+16. Create a class TIME with data members hours, minutes and seconds. Include constructors to
+read and display time objects. Write a C++ program to add 2 time objects using operator
+overloading.
+
+17. Write a function power() to raise a number m to a power n. the function takes a double value for
+m and int value for n, and returns the result correctly Use a default values of 4 for n to make the
+function to calculate.
+
+18.Write a program to create a class Salary contains data membershra, cca, bp, total. Create another
+class Tax contain data member name. Derive a class Income_tax from salary and tax. Include
+member function to accept data from keyboard and display the output on the screen. Calculate
+hra as 10% of the bp, da as 30% of the bp, ccaRs. 200, total as 12 times of (bp+da+hra+cca) and
+calculate income tax as the following rules.
+Total (yearly income) Rate
+>60,000 && ≤80,000 20%
+>80,000 && ≤1,0 0,000 30%
+>1,00,000 40%
+Give options to add, modify, delete and search records. Also give suitable validations to the fields.
