@@ -9,7 +9,7 @@ public:
 
     Obj(){
     count++;
-    cout << "object obj"<<count<<" created." << endl;}
+    cout << "Object "<<count<<" created." << endl;}
 
     static int showCount(){
         return count;
